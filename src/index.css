@@ -145,7 +145,7 @@ Color Generator
   display: flex;
   align-items: center;
   height: 100px;
-  padding-left: 2rem;
+  padding: 2rem;
 }
 .container h3 {
   margin-bottom: 0;
