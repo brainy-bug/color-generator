@@ -192,8 +192,9 @@ input:focus {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media  (max-width: 1000px) {
   .notification-container {
+    top: auto;
     bottom: 20px;
   }
 }
