@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import {
+  NotificationContainer,
+  NotificationManager,
+} from "react-notifications";
+
 import SingleColor from "./SingleColor";
 
 import Values from "values.js";
@@ -15,7 +20,7 @@ function App() {
       setList(colors);
     } catch (error) {
       setError(true);
-      alert("Whoops! Invalid Color Code 😐");
+      NotificationManager.error("Oops! Invalid Color Code 😐");
     }
   };
 
@@ -51,6 +56,7 @@ function App() {
             />
           );
         })}
+        <NotificationContainer />
       </section>
     </>
   );

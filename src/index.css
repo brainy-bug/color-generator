@@ -190,6 +190,7 @@ input:focus {
   .btn {
     font-size: 0.85rem;
   }
+
 }
 input.error {
   border: 2px solid var(--clr-red-dark);
