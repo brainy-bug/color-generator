@@ -9,11 +9,6 @@ The lightness or darkness of a color is called its value. Tints are light values
 
 ### https://yk-color-generator.netlify.app
 
----
-
-## View Live project:
-https://yk-color-generator.netlify.app/
-----
 
 ## Technologies and tools used
 
